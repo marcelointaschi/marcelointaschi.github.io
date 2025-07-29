@@ -1,0 +1,50 @@
+[
+    {
+        "faixa": [0, 180000.00],
+        "aliquotaBr": 15.50,
+        "deducao": 0,
+        "deducaoAno": 0,
+        "deduzido": 0,
+        "aliquota": 0
+    },
+    {
+        "faixa": [180000.00, 360000.00],
+        "aliquotaBr": 18,
+        "deducao": 4500.00,
+        "deducaoAno": 0,
+        "deduzido": 0,
+        "aliquota": 0
+    },
+    {
+        "faixa": [360000.00, 720000.00],
+        "aliquotaBr": 19.50,
+        "deducao": 9900.00,
+        "deducaoAno": 0,
+        "deduzido": 0,
+        "aliquota": 0
+    },
+        {
+        "faixa": [720000.00, 1800000.00],
+        "aliquotaBr": 20.50,
+        "deducao": 17100.00,
+        "deducaoAno": 0,
+        "deduzido": 0,
+        "aliquota": 0
+    },
+        {
+        "faixa": [1800000.00, 3600000.00],
+        "aliquotaBr": 23,
+        "deducao": 62100.00,
+        "deducaoAno": 0,
+        "deduzido": 0,
+        "aliquota": 0
+    },
+        {
+        "faixa": [3600000.00, 4800000.00],
+        "aliquotaBr": 30.50,
+        "deducao": 540000.00,
+        "deducaoAno": 0,
+        "deduzido": 0,
+        "aliquota": 0
+    }
+]

@@ -1,0 +1,56 @@
+[
+    {
+        "faixa": [0, 180000.00],
+        "irpj": 0,
+        "iss": 0,
+        "csll": 0,
+        "cpp": 0,
+        "cofins": 0,
+        "pispasep": 0
+    },
+    {
+        "faixa": [180000.00, 360000.00],
+        "irpj": 0,
+        "iss": 0,
+        "csll": 0,
+        "cpp": 0,
+        "cofins": 0,
+        "pispasep": 0
+    },
+    {
+        "faixa": [360000.00, 720000.00],
+        "irpj": 0,
+        "iss": 0,
+        "csll": 0,
+        "cpp": 0,
+        "cofins": 0,
+        "pispasep": 0
+    },
+    {
+        "faixa": [720000.00, 1800000.00],
+        "irpj": 0,
+        "iss": 0,
+        "csll": 0,
+        "cpp": 0,
+        "cofins": 0,
+        "pispasep": 0
+    },
+    {
+        "faixa": [1800000.00, 3600000.00],
+        "irpj": 0,
+        "iss": 0,
+        "csll": 0,
+        "cpp": 0,
+        "cofins": 0,
+        "pispasep": 0
+    },
+    {
+        "faixa": [3600000.00, 4800000.00],
+        "irpj": 0,
+        "iss": 0,
+        "csll": 0,
+        "cpp": 0,
+        "cofins": 0,
+        "pispasep": 0
+    }
+]
