@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Redirecting...</title>
+    <script>
+      // GitHub Pages serves this 404 page when a direct URL is requested.
+      // We fetch the real index.html, write it into the document, then
+      // restore the original URL so the SPA router (BrowserRouter) can handle it.
+      (function () {
+        var path = location.pathname + location.search + location.hash;
+        // GitHub Pages responds to unknown routes with a 404 that includes
+        // a very restrictive Content-Security-Policy (default-src 'none').
+        // That blocks loading scripts/fonts if we try to fetch and inject
+        // index.html here. Instead, do a client-side redirect to the root
+        // using a hash containing the original path. This will load the
+        // real SPA at / and preserve the requested route in the hash so
+        // BrowserRouter will handle it.
+        try {
+          var target = '/#' + path.replace(/^\/?/, '');
+          // Replace so browser history doesn't keep the 404 URL
+          location.replace(target);
+        } catch (err) {
+          console.error('Redirect to SPA fallback failed:', err);
+          location.replace('/');
+        }
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>
